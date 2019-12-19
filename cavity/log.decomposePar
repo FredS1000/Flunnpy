@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-ca808c8420bf
+Exec   : decomposePar -copyZero
+Date   : Dec 18 2019
+Time   : 14:00:58
+Host   : "frederik-WRT-WX9"
+PID    : 6962
+I/O    : uncollated
+Case   : /home/frederik/OpenFOAM/frederik-7/run/cavity
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 4;
+    method          ptscotch;
+    simpleCoeffs
+    {
+        n               ( 2 2 1 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 1 1 1 );
+        delta           0.001;
+        order           xyz;
+    }
+    metisCoeffs
+    {
+        processorWeights ( 1 1 1 1 );
+    }
+    manualCoeffs
+    {
+        dataFile        "";
+    }
+    distributed     no;
+    roots           ( );
+}
+
+Selecting decompositionMethod ptscotch
+
+
+--> FOAM FATAL ERROR: 
+Unknown decompositionMethod ptscotch
+
+Valid decompositionMethods are : 
+
+8
+(
+hierarchical
+manual
+metis
+multiLevel
+none
+scotch
+simple
+structured
+)
+
+
+    From function static Foam::autoPtr<Foam::decompositionMethod> Foam::decompositionMethod::New(const Foam::dictionary&)
+    in file decompositionMethod/decompositionMethod.C at line 193.
+
+FOAM exiting
+

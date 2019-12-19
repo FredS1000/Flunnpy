@@ -1,0 +1,65 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+=========                 |
+\\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+\\    /   O peration     | Website:  https://openfoam.org
+\\  /    A nd           | Version:  7
+\\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+version     2.0;
+format      ascii;
+class       volVectorField;
+object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+movingWall
+{
+type            fixedValue;
+value           uniform (0 0 0);
+}
+
+fixedWalls
+{
+type            noSlip;
+}
+
+frontAndBack
+{
+type            empty;
+}
+
+right
+{
+type            zeroGradient;
+}
+
+modelGroup
+{
+type            noSlip;
+}
+
+left
+{
+type            fixedValue;
+//PyFoamRemoved: value           uniform (1 0 0);
+//PyFoamRemoved: value uniform (0.000000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.100000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.200000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.300000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.400000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.500000 0 0); //PyFoamAdded
+//PyFoamRemoved: value uniform (0.600000 0 0); //PyFoamAdded
+value uniform (0.700000 0 0); //PyFoamAdded
+}
+
+}
+
+// ************************************************************************* //

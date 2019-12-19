@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-ca808c8420bf
+Exec   : patchSummary
+Date   : Dec 18 2019
+Time   : 14:00:58
+Host   : "frederik-WRT-WX9"
+PID    : 6967
+I/O    : uncollated
+Case   : /home/frederik/OpenFOAM/frederik-7/run/cavity
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time = 0
+
+Valid fields:
+    volVectorField	U
+    volScalarField	p
+    volScalarField	cellLevel
+    pointScalarField	pointLevel
+
+group	: wall
+    scalar		p		zeroGradient
+    scalar		cellLevel		calculated
+    vector		U		noSlip
+    scalar		pointLevel		calculated
+
+empty	: frontAndBack
+    scalar		p		empty
+    scalar		cellLevel		empty
+    vector		U		empty
+    scalar		pointLevel		empty
+
+patch	: right
+    scalar		p		fixedValue
+    scalar		cellLevel		calculated
+    vector		U		zeroGradient
+    scalar		pointLevel		calculated
+
+patch	: left
+    scalar		p		zeroGradient
+    scalar		cellLevel		calculated
+    vector		U		fixedValue
+    scalar		pointLevel		calculated
+
+End
+
