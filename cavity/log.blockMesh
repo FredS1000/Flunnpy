@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : blockMesh
-Date   : Dec 18 2019
-Time   : 14:00:58
+Date   : Dec 22 2019
+Time   : 22:28:29
 Host   : "frederik-WRT-WX9"
-PID    : 6961
+PID    : 12696
 I/O    : uncollated
-Case   : /home/frederik/OpenFOAM/frederik-7/run/cavity
+Case   : /home/frederik/flunnpy/cavity
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -22,7 +22,7 @@ allowSystemOperations : Allowing user-supplied system call operations
 Create time
 
 Creating block mesh from
-    "/home/frederik/OpenFOAM/frederik-7/run/cavity/system/blockMeshDict"
+    "/home/frederik/flunnpy/cavity/system/blockMeshDict"
 Creating block edges
 No non-planar block faces defined
 Creating topology blocks
@@ -45,17 +45,17 @@ Creating merge list .
 Creating polyMesh from blockMesh
 Creating patches
 Creating cells
-Creating points with scale 1
+Creating points with scale 0.1
     Block 0 cell size :
-        i : 0.05 .. 0.05
-        j : 0.05 .. 0.05
-        k : 0.1
+        i : 0.005 .. 0.005
+        j : 0.005 .. 0.005
+        k : 0.01
 
 Writing polyMesh
 ----------------
 Mesh Information
 ----------------
-  boundingBox: (-0.1 0 0) (0.9 1 0.1)
+  boundingBox: (0 0 0) (0.1 0.1 0.01)
   nPoints: 882
   nCells: 400
   nFaces: 1640

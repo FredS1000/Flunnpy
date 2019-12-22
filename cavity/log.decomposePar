@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : decomposePar -copyZero
-Date   : Dec 18 2019
-Time   : 14:00:58
+Date   : Dec 22 2019
+Time   : 22:28:29
 Host   : "frederik-WRT-WX9"
-PID    : 6962
+PID    : 12697
 I/O    : uncollated
-Case   : /home/frederik/OpenFOAM/frederik-7/run/cavity
+Case   : /home/frederik/flunnpy/cavity
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)

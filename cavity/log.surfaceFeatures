@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : surfaceFeatures
-Date   : Dec 18 2019
-Time   : 14:00:57
+Date   : Dec 22 2019
+Time   : 22:28:29
 Host   : "frederik-WRT-WX9"
-PID    : 6960
+PID    : 12695
 I/O    : uncollated
-Case   : /home/frederik/OpenFOAM/frederik-7/run/cavity
+Case   : /home/frederik/flunnpy/cavity
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -28,42 +28,42 @@ Surface            : "model.stl"
 
 Feature line extraction is only valid on closed manifold surfaces.
 Statistics:
-Triangles    : 12
-Vertices     : 8
-Bounding Box : (-0.2 -0.2 -0.1) (0.2 0.2 0.1)
+Triangles    : 236
+Vertices     : 120
+Bounding Box : (0.030249 0.025497 0) (0.060379 0.064768 1)
 
 
 Constructing feature set from included angle 30
 Selecting edges purely based on geometric tests: no
 
 Initial feature set:
-    feature points : 0
-    feature edges  : 0
+    feature points : 40
+    feature edges  : 180
     of which
         region edges   : 0
-        external edges : 0
-        internal edges : 0
+        external edges : 40
+        internal edges : 140
 
 
 Final feature set:
-points      : 0
-edges       : 0
-boundingBox : (0 0 0) (0 0 0)
+points      : 118
+edges       : 180
+boundingBox : (0.030249 0.025497 0) (0.060379 0.064768 1)
 point classification :
-    convex feature points          :        0
+    convex feature points          :        8
     concave feature points         :        0
-    mixed feature points           :        0
-    other (non-feature) points     :        0
+    mixed feature points           :       32
+    other (non-feature) points     :       78
 edge classification :
-    external (convex angle) edges  :        0
-    internal (concave angle) edges :        0
+    external (convex angle) edges  :      132
+    internal (concave angle) edges :       48
     flat region edges              :        0
     open edges                     :        0
     multiply connected edges       :        0
 
-Writing extendedFeatureEdgeMesh to "/home/frederik/OpenFOAM/frederik-7/run/cavity/constant/extendedFeatureEdgeMesh/model.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/home/frederik/flunnpy/cavity/constant/extendedFeatureEdgeMesh/model.extendedFeatureEdgeMesh"
 
-Writing featureEdgeMesh to "/home/frederik/OpenFOAM/frederik-7/run/cavity/constant/triSurface/model.eMesh"
+Writing featureEdgeMesh to "/home/frederik/flunnpy/cavity/constant/triSurface/model.eMesh"
 
 ExecutionTime = 0 s  ClockTime = 0 s
 

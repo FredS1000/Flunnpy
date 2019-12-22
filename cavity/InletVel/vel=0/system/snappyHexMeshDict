@@ -36,11 +36,11 @@ geometry
     }
 
     //- Refine a bit extra around the small centre hole
-    Box
+    refineHole
     {
         type            searchableBox;
-        min             (0 0.05 0);
-        max             (0.9 1 0.1);
+        min             (0.01 0.01 0);
+        max             (0.09 0.09 0.1);
     }
 };
 
@@ -56,14 +56,14 @@ castellatedMeshControls
     // If local number of cells is >= maxLocalCells on any processor
     // switches from from refinement followed by balancing
     // (current method) to (weighted) balancing before refinement.
-    maxLocalCells 10000;
+    maxLocalCells 100000;
 
     // Overall cell limit (approximately). Refinement will stop immediately
     // upon reaching this number so a refinement level might not complete.
     // Note that this is the number of cells before removing the part which
     // is not 'visible' from the keepPoint. The final number of cells might
     // actually be a lot less.
-    maxGlobalCells 20000;
+    maxGlobalCells 2000000;
 
     // The surface refinement loop might spend lots of iterations refining just a
     // few cells. This setting will cause refinement to stop if <= minimumRefine
@@ -142,13 +142,13 @@ castellatedMeshControls
     // - outside. Same but cells outside.
 
     refinementRegions
-    {
-        /*refineHole
+    {/*
+        refineHole
         {
             mode inside;
-            levels ((1E15 3));
+            levels ((1E3 2));
         }
-*/    
+    */
 }
 
 
@@ -162,7 +162,7 @@ castellatedMeshControls
     // after refinement.
     // This is an outside point locationInMesh (-0.033 -0.033 0.0033);
 //    locationInMesh (-9.23149e-05 -0.0025 -0.0025); // Inside point
-    locationInMesh (0.8 0.8 0); // Inside point
+    locationInMesh (0.001 0.001 0); // Inside point
     // Whether any faceZones (as specified in the refinementSurfaces)
     // are only on the boundary of corresponding cellZones or also allow
     // free-standing zone faces. Not used if there are no faceZones.
@@ -221,7 +221,7 @@ addLayersControls
     {
         "model_.*"
         {
-            nSurfaceLayers 1;
+            nSurfaceLayers 2;
         }
     }
 
