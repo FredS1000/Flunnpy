@@ -1,12 +1,12 @@
 # Flunnpy
-Flunnpy is a project which aims to train an artificial neuronal network with CFD-(computational fluid dynamics)-data. For the first stept this ann should be able to predict the flow around a random geometry with same boundary condition. Ideas and approach are inspired by some projects:
+Flunnpy is a project which aims to train an artificial neural network with CFD-(computational fluid dynamics)-data. For the first stept this ann should be able to predict the flow around a random geometry with same boundary condition. Ideas and approach are inspired by some projects:
 
 https://github.com/loliverhennigh/Steady-State-Flow-With-Neural-Nets
 
 https://medium.com/@jannik.zuern/neural-networks-for-steady-state-fluid-flow-prediction-part-1-856ef056da54
 
 # Intention:
-Why am I doing this? I am quite interested in neuronal networks and the capabilities of current AI development. As far as I know are ann quite good at detecting patterns. 
+Why am I doing this? I am quite interested in neural networks and the capabilities of current AI development. As far as I know are ann quite good at detecting patterns. 
 Furthermore I like simulations and especially CFD simulations. If well done they can save a lot of time during devolpement process, but proper setup of the problem can be tricky. In addition to this do simulations need some high level hardware for more complex problems. This often means that simulations are used when the first design phase is done and the milk is spilt. 
 So why not trying to find patterns in the results of CFD simulations and train an ann to do the simulation for similar problems? It could support a developer in the early stages of design.
 

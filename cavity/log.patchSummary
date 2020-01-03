@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : patchSummary
-Date   : Dec 22 2019
-Time   : 22:28:29
+Date   : Dec 28 2019
+Time   : 22:15:06
 Host   : "frederik-WRT-WX9"
-PID    : 12699
+PID    : 18053
 I/O    : uncollated
 Case   : /home/frederik/flunnpy/cavity
 nProcs : 1

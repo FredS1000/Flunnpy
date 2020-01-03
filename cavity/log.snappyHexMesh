@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : snappyHexMesh -overwrite
-Date   : Dec 22 2019
-Time   : 22:28:29
+Date   : Dec 28 2019
+Time   : 22:15:05
 Host   : "frederik-WRT-WX9"
-PID    : 12698
+PID    : 18050
 I/O    : uncollated
 Case   : /home/frederik/flunnpy/cavity
 nProcs : 1
@@ -23,7 +23,7 @@ Create time
 
 Create mesh for time = 0
 
-Read mesh in = 0.01 s
+Read mesh in = 0 s
 
 Overall mesh bounding box  : (0 0 0) (0.1 0.1 0.01)
 Relative tolerance         : 1e-06
@@ -137,7 +137,7 @@ Edge intersection testing:
     Number of edges             : 2870
     Number of edges to retest   : 1548
     Number of intersected edges : 218
-Refined mesh in = 0 s
+Refined mesh in = 0.01 s
 After refinement surface refinement iteration 0 : cells:743  faces:2870  points:1445
 Cells per refinement level:
     0	351
@@ -153,7 +153,7 @@ Edge intersection testing:
     Number of edges             : 8375
     Number of edges to retest   : 6958
     Number of intersected edges : 865
-Refined mesh in = 0.02 s
+Refined mesh in = 0.01 s
 After refinement surface refinement iteration 1 : cells:2339  faces:8375  points:3791
 Cells per refinement level:
     0	345
@@ -185,7 +185,7 @@ Shell refinement iteration 0
 
 Marked for refinement due to distance to explicit features : 0 cells.
 Marked for refinement due to refinement shells             : 0 cells.
-Determined cells to refine in = 0.01 s
+Determined cells to refine in = 0.02 s
 Selected for internal refinement : 0 cells (out of 1893)
 Stopping refining since too few cells selected.
 
@@ -228,7 +228,7 @@ Introducing baffles to block off problem cells
 ----------------------------------------------
 
 markFacesOnProblemCells : marked 1415 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0.01 s
+Analyzed problem cells in = 0 s
 
 
 Introducing baffles to delete problem cells.
@@ -237,7 +237,7 @@ Edge intersection testing:
     Number of edges             : 9008
     Number of edges to retest   : 4415
     Number of intersected edges : 1313
-Created baffles in = 0 s
+Created baffles in = 0.01 s
 
 
 After introducing baffles : cells:1893  faces:9008  points:3454
@@ -255,7 +255,7 @@ Edge intersection testing:
     Number of edges             : 4579
     Number of edges to retest   : 0
     Number of intersected edges : 448
-Split mesh in = 0.02 s
+Split mesh in = 0.01 s
 
 
 After subsetting : cells:1161  faces:4579  points:2403
@@ -286,7 +286,7 @@ Introducing baffles to block off problem cells
 ----------------------------------------------
 
 markFacesOnProblemCells : marked 0 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0 s
+Analyzed problem cells in = 0.01 s
 
 
 Introducing baffles to delete problem cells.
@@ -295,7 +295,7 @@ Edge intersection testing:
     Number of edges             : 4579
     Number of edges to retest   : 0
     Number of intersected edges : 448
-Created baffles in = 0.01 s
+Created baffles in = 0 s
 
 
 After introducing baffles : cells:1161  faces:4579  points:2403
@@ -400,7 +400,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Detected 0 illegal faces (concave, zero area or negative cell pyramid volume)
-Checked initial mesh in = 0 s
+Checked initial mesh in = 0.01 s
 
 
 Smoothing patch points ...
@@ -469,7 +469,7 @@ Checking faces in error :
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
 
-Patch points smoothed in = 0.02 s
+Patch points smoothed in = 0.01 s
 
 
 
@@ -635,7 +635,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.01 s
+Moved mesh in = 0 s
 
 
 
@@ -699,7 +699,7 @@ Iteration 260
 Iteration 270
 Iteration 280
 Iteration 290
-Displacement smoothed in = 0.01 s
+Displacement smoothed in = 0.02 s
 
 
 Moving mesh ...
@@ -782,7 +782,7 @@ Iteration 260
 Iteration 270
 Iteration 280
 Iteration 290
-Displacement smoothed in = 0.02 s
+Displacement smoothed in = 0.01 s
 
 
 Moving mesh ...
@@ -801,7 +801,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0 s
+Moved mesh in = 0.01 s
 
 
 
@@ -968,7 +968,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.01 s
+Moved mesh in = 0 s
 
 
 
@@ -1032,7 +1032,7 @@ Iteration 260
 Iteration 270
 Iteration 280
 Iteration 290
-Displacement smoothed in = 0.01 s
+Displacement smoothed in = 0.02 s
 
 
 Moving mesh ...
@@ -1115,7 +1115,7 @@ Iteration 260
 Iteration 270
 Iteration 280
 Iteration 290
-Displacement smoothed in = 0.02 s
+Displacement smoothed in = 0.01 s
 
 
 Moving mesh ...
@@ -1134,7 +1134,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0 s
+Moved mesh in = 0.01 s
 
 
 
@@ -1300,7 +1300,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0 s
+Moved mesh in = 0.01 s
 
 
 Repatching faces according to nearest surface ...
@@ -1364,7 +1364,7 @@ Cells per refinement level:
     1	148
     2	668
 Writing mesh to time constant
-Wrote mesh in = 0.03 s.
+Wrote mesh in = 0.02 s.
 Mesh snapped in = 0.27 s.
 Checking final mesh ...
 Checking faces in error :
