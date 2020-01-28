@@ -18,15 +18,19 @@ Creating the geometries and saving them in a format which can be read by the mes
 
 This CreateSTL.py script is called by the Script "Run Cavity"
 
-####Run Cavity
+#### Run Cavity
 
 
 
-#Model
+# Model
 
-####Input
-####Boundary
+#### Input
 
-####Labeled data (fluid velocity in x and y direction) 
+#### Boundary
+![geometry /mesh](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_Mesh.png?token=AN5QX2CQMP3XFLV7K5C6EIC6GA5G6)
+#### Labeled data (fluid velocity in x and y direction) 
+![velocity field x-direction](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_X.png?token=AN5QX2FXSCSZQW27IK7PIES6GA5HC)
+
+![velocity field y-direction](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_Y.png?token=AN5QX2D6L6336SG3N4Z33Y26GA5HC)
 
 #### First results
