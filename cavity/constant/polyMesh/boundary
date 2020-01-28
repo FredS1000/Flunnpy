@@ -22,26 +22,26 @@ FoamFile
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          40;
-        startFace       2879;
+        startFace       2602;
     }
     frontAndBack
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          1172;
-        startFace       2919;
+        nFaces          1134;
+        startFace       2642;
     }
     right
     {
         type            patch;
         nFaces          20;
-        startFace       4091;
+        startFace       3776;
     }
     left
     {
         type            patch;
         nFaces          20;
-        startFace       4111;
+        startFace       3796;
     }
     model
     {
@@ -53,8 +53,8 @@ modelGroup
 wall
 )
 ;
-        nFaces          312;
-        startFace       4131;
+        nFaces          276;
+        startFace       3816;
     }
 )
 

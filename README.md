@@ -14,4 +14,4 @@ So why not trying to find patterns in the results of CFD simulations and train a
 Regarding the need of testing data the first step is to generate random geometries for the fluid dynamics simulation. For the simulation OpenFOAM is used. This is an open source simulation software for various numerical problems. Using snappyHexMesh as a meshing tools it is capable of scripted batch simulations for varied geometries. 
 Creating the geometries and saving them in a format which can be read by the meshing tool (.stl) is done in the CreateSTL python file. 
 
-The secon
+This CreateSTL.py script is called by the Script "Run Cavity"

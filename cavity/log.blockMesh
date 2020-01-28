@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : blockMesh
-Date   : Jan 03 2020
-Time   : 21:09:09
+Date   : Jan 28 2020
+Time   : 00:25:17
 Host   : "frederik-WRT-WX9"
-PID    : 14900
+PID    : 4368
 I/O    : uncollated
 Case   : /home/frederik/flunnpy/cavity
 nProcs : 1

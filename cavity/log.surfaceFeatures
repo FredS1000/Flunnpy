@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7-ca808c8420bf
 Exec   : surfaceFeatures
-Date   : Jan 03 2020
-Time   : 21:09:09
+Date   : Jan 28 2020
+Time   : 00:25:17
 Host   : "frederik-WRT-WX9"
-PID    : 14899
+PID    : 4367
 I/O    : uncollated
 Case   : /home/frederik/flunnpy/cavity
 nProcs : 1
@@ -28,35 +28,35 @@ Surface            : "model.stl"
 
 Feature line extraction is only valid on closed manifold surfaces.
 Statistics:
-Triangles    : 236
-Vertices     : 120
-Bounding Box : (0.030249 0.025497 0) (0.060379 0.064768 1)
+Triangles    : 292
+Vertices     : 148
+Bounding Box : (0.034319 0.03158 0) (0.0578 0.068167 1)
 
 
 Constructing feature set from included angle 30
 Selecting edges purely based on geometric tests: no
 
 Initial feature set:
-    feature points : 40
-    feature edges  : 180
+    feature points : 51
+    feature edges  : 216
     of which
         region edges   : 0
-        external edges : 40
-        internal edges : 140
+        external edges : 49
+        internal edges : 167
 
 
 Final feature set:
-points      : 118
-edges       : 180
-boundingBox : (0.030249 0.025497 0) (0.060379 0.064768 1)
+points      : 142
+edges       : 216
+boundingBox : (0.034319 0.03158 0) (0.0578 0.068167 1)
 point classification :
     convex feature points          :        8
     concave feature points         :        0
-    mixed feature points           :       32
-    other (non-feature) points     :       78
+    mixed feature points           :       43
+    other (non-feature) points     :       91
 edge classification :
-    external (convex angle) edges  :      132
-    internal (concave angle) edges :       48
+    external (convex angle) edges  :      161
+    internal (concave angle) edges :       55
     flat region edges              :        0
     open edges                     :        0
     multiply connected edges       :        0
@@ -65,7 +65,7 @@ Writing extendedFeatureEdgeMesh to "/home/frederik/flunnpy/cavity/constant/exten
 
 Writing featureEdgeMesh to "/home/frederik/flunnpy/cavity/constant/triSurface/model.eMesh"
 
-ExecutionTime = 0.01 s  ClockTime = 0 s
+ExecutionTime = 0 s  ClockTime = 0 s
 
 End
 
