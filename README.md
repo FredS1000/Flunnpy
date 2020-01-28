@@ -11,7 +11,22 @@ Furthermore I like simulations and especially CFD simulations. If well done they
 So why not trying to find patterns in the results of CFD simulations and train an ann to do the simulation for similar problems? It could support a developer in the early stages of design.
 
 # Approach
+First of all the scripts are written in python mostly. Prototyping is done using jupyter notebooks and only working scripts are transferred to .py scripts.  I will try to comment the code to keep it readable.
+####Labeled data
 Regarding the need of testing data the first step is to generate random geometries for the fluid dynamics simulation. For the simulation OpenFOAM is used. This is an open source simulation software for various numerical problems. Using snappyHexMesh as a meshing tools it is capable of scripted batch simulations for varied geometries. 
 Creating the geometries and saving them in a format which can be read by the meshing tool (.stl) is done in the CreateSTL python file. 
 
 This CreateSTL.py script is called by the Script "Run Cavity"
+
+####Run Cavity
+
+
+
+#Model
+
+####Input
+#####Boundary
+
+#####Labeled data (fluid velocity in x and y direction) 
+
+#### First results
