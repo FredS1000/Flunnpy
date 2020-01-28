@@ -25,8 +25,8 @@ This CreateSTL.py script is called by the Script "Run Cavity"
 #Model
 
 ####Input
-#####Boundary
+####Boundary
 
-#####Labeled data (fluid velocity in x and y direction) 
+####Labeled data (fluid velocity in x and y direction) 
 
 #### First results
