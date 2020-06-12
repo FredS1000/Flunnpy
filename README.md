@@ -25,6 +25,8 @@ This CreateSTL.py script is called by the Script "Run Cavity"
 # Model
 
 #### Input
+In the Input folder an input python script does all the work. The data is loaded, the model is configured, trained and used.
+
 
 #### Boundary
 ![geometry /mesh](https://github.com/FredS1000/Flunnpy/blob/master/Pics/No34_A_0-0007_L0-1143_cavity_vel_1_Mesh.png)
