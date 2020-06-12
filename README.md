@@ -27,10 +27,11 @@ This CreateSTL.py script is called by the Script "Run Cavity"
 #### Input
 
 #### Boundary
-![geometry /mesh](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_Mesh.png?token=AN5QX2CQMP3XFLV7K5C6EIC6GA5G6)
+![geometry /mesh](https://github.com/FredS1000/Flunnpy/blob/master/Pics/No34_A_0-0007_L0-1143_cavity_vel_1_Mesh.png)
 #### Labeled data (fluid velocity in x and y direction) 
-![velocity field x-direction](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_X.png?token=AN5QX2FXSCSZQW27IK7PIES6GA5HC)
+![velocity field x-direction](https://github.com/FredS1000/Flunnpy/blob/master/Pics/No34_A_0-0007_L0-1143_cavity_vel_1_X.png)
 
-![velocity field y-direction](https://raw.githubusercontent.com/FredS1000/Flunnpy/master/Solutions_PNG/No7_A_0-00_L0-11/No7_A_0-00_L0-11_cavity_vel_1_Y.png?token=AN5QX2D6L6336SG3N4Z33Y26GA5HC)
+![velocity field y-direction](https://github.com/FredS1000/Flunnpy/blob/master/Pics/No34_A_0-0007_L0-1143_cavity_vel_1_Y.png)
 
 #### First results
+ ![First Results](https://github.com/FredS1000/Flunnpy/blob/master/Pics/Resultplot.png)
